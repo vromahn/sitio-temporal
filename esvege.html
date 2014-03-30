@@ -1,0 +1,51 @@
+<html lang="en"><head>
+<meta charset="UTF-8">
+<title>SVG Sprite Demonstration</title>
+<style>
+body
+{
+	font-family: sans-serif;
+	margin: 10px;
+	color: #222;
+	background-color: #eee;
+}
+
+div.sprite
+{
+	display: inline-block;
+	width: 100px;
+	height: 100px;	
+}
+
+div#circle { background-image: url("sprite.svg#circle"); }
+div#square { background-image: url("sprite.svg#square"); }
+div#triangle { background-image: url("sprite.svg#triangle"); }
+</style></head>
+
+<body>
+
+<h1>SVG Sprites</h1>
+<p>The following images use different tags to display the same SVG sprite.</p>
+
+<h2>object</h2>
+<object type="image/svg+xml" data="sprite.svg#circle" height="100" width="100"></object>
+<object type="image/svg+xml" data="sprite.svg#square" height="100" width="100"></object>
+<object type="image/svg+xml" data="sprite.svg#triangle" height="100" width="100"></object>
+
+<h2>iframe</h2>
+<iframe src="sprite.svg#circle" frameborder="0" height="100" width="100"></iframe>
+<iframe src="sprite.svg#square" frameborder="0" height="100" width="100"></iframe>
+<iframe src="sprite.svg#triangle" frameborder="0" height="100" width="100"></iframe>
+
+<h2>img</h2>
+<img src="sprite.svg#circle" height="100" width="100">
+<img src="sprite.svg#square" height="100" width="100">
+<img src="sprite.svg#triangle" height="100" width="100">
+
+<h2>CSS background</h2>
+<div id="circle" class="sprite"></div>
+<div id="square" class="sprite"></div>
+<div id="triangle" class="sprite"></div>
+
+
+</body></html>

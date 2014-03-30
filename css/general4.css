@@ -1,0 +1,567 @@
+@CHARSET "UTF-8";
+/******* GENERAL RESET *******/
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em,
+font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody,
+ tfoot, thead, tr, th, td {
+border:0pt none;
+font-family:inherit;
+font-size: 100%;
+font-style:inherit;
+font-weight:inherit;
+margin:0pt;
+padding:0pt;
+vertical-align:baseline;
+}
+
+
+a{
+	text-decoration: none;
+}
+.clear{
+	clear: both;
+	height: 0;
+	visibility: hidden;
+	display: block;
+}
+
+/******* GENERAL RESET *******/
+/******* LOGO *******/
+#logo{
+	margin-top: 1em;
+	display: block;
+}
+/******* /LOGO  *******/
+/******* MENU *******/
+#container4{
+	margin: 						3px;
+	width:							615px;
+	float:							left;
+	margin-right:					10px;
+	
+}
+#container4 ul{
+	list-style: none;
+	list-style-position: outside;
+}
+#container4 ul.menu li{
+	float: left;
+	margin-right: 5px;
+	margin-bottom: -1px;
+	font-family:	Adobe Caslon;
+	font-size:		14px;
+	font-weight:	normal;
+}
+#container4 ul.menu li{	
+	display: block;
+	padding: 5px 10px 5px 10px;
+	background: #efefef;
+	margin-bottom: -1px;
+	border: 1px solid #d0ccc9;
+	border-width: 1px 1px 1px 1px;
+	position: relative;
+	color: #7C7C7C;
+	cursor: pointer;
+}
+#container4 ul.menu li.active{
+	background: #F4F4F4;
+	top: 1px;
+	border-bottom: 0;
+	color: #008441;
+}
+/******* /MENU *******/
+#container4 ul.menu4 li{
+	float: left;
+	margin-right: 5px;
+	margin-bottom: -1px;
+	font-family:	Adobe Caslon;
+	font-size:		14px;
+	font-weight:	normal;
+}
+#container4 ul.menu4 li{	
+	display: block;
+	padding: 5px 10px 5px 10px;
+	background: #efefef;
+	margin-bottom: -1px;
+	border: 1px solid #d0ccc9;
+	border-width: 1px 1px 1px 1px;
+	position: relative;
+	color: #7C7C7C;
+	cursor: pointer;
+}
+#container4 ul.menu4 li.active{
+	background: #F4F4F4;
+	top: 1px;
+	border-bottom: 0;
+	color: #008441;
+}
+/******* /MENU *******/
+/******* CONTENT *******/
+.contentbec{
+	margin: 0pt auto;
+	background: #efefef;
+	background: #F4F4F4;
+	border: 1px solid #d0ccc9;
+	text-align: left;
+	padding: 10px;
+	padding-bottom: 20px;
+	font-size: 11px;
+  //margin-top:					-19px;
+  	
+}
+.contentbec h1{
+	line-height: 1em;
+	vertical-align: middle;
+	height: 48px;
+	padding: 10px 10px 10px 52px;
+	font-size: 32px;
+}
+/******* /CONTENT *******/
+/******* NEWS *******/
+.contentbec.ags h1{
+	background: transparent url(images/news.jpg) no-repeat scroll left top;
+}
+.contentbec.ags{
+	display: block;
+}
+.contentbec.ags a{
+	color: #7C7C7C;
+}
+.contentbec.ags a:hover{
+	color: #008441;		
+	
+}
+/******* /NEWS *******/
+/******* TUTORIALS *******/
+.contentbec.bc h1{
+	background: transparent url(images/tuts.jpg) no-repeat scroll left top;
+}
+.contentbec.bc{
+	display: none;
+}
+.contentbec.bc a{
+	color: #7C7C7C;
+}
+.contentbec.bc a:hover{
+	color: #008441;	
+	
+}
+/******* /TUTORIALS *******/
+/******* LINKS *******/
+.contentbec.bcs h1{
+	background: transparent url(images/links.jpg) no-repeat scroll left top;
+}
+.contentbec.bcs{
+	display: none;
+}
+.contentbec.bcs a{
+	color: #7C7C7C;
+}
+.contentbec.bcs a:hover{
+	color: #008441;
+}
+/******* /TUTORIALS *******/
+/******* LINKS *******/
+.contentbec.camp h1{
+	background: transparent url(images/links.jpg) no-repeat scroll left top;
+}
+.contentbec.camp{
+	display: none;
+}
+.contentbec.camp a{
+	color: #7C7C7C;
+}
+.contentbec.camp a:hover{
+	color: #008441;
+}
+/******* /TUTORIALS *******/
+/******* LINKS *******/
+.contentbec.chis h1{
+	background: transparent url(images/links.jpg) no-repeat scroll left top;
+}
+.contentbec.chis{
+	display: none;
+}
+.contentbec.chis a{
+	color: #7C7C7C;
+}
+.contentbec.chis a:hover{
+	color: #008441;
+}
+/******* /TUTORIALS *******/
+/******* chihuahua *******/
+.contentbec.chi h1{
+	background: transparent url(images/links.jpg) no-repeat scroll left top;
+}
+.contentbec.chi{
+	display: none;
+}
+.contentbec.chi a{
+	color: #7C7C7C;
+}
+.contentbec.chi a:hover{
+	color: #008441;
+}
+/******* /TUTORIALS *******/
+/******* Coahuila *******/
+.contentbec.coa h1{
+	background: transparent url(images/links.jpg) no-repeat scroll left top;
+}
+.contentbec.coa{
+	display: none;
+}
+.contentbec.coa a{
+	color: #7C7C7C;
+}
+.contentbec.coa a:hover{
+	color: #008441;
+}
+/******* /TUTORIALS *******/
+/******* Colima *******/
+.contentbec.col h1{
+	background: transparent url(images/links.jpg) no-repeat scroll left top;
+}
+.contentbec.col{
+	display: none;
+}
+.contentbec.col a{
+	color: #7C7C7C;
+}
+.contentbec.col a:hover{
+	color: #008441;
+}
+/******* /TUTORIALS *******/
+/******* DF *******/
+.contentbec.df h1{
+	background: transparent url(images/links.jpg) no-repeat scroll left top;
+}
+.contentbec.df{
+	display: none;
+}
+.contentbec.df a{
+	color: #7C7C7C;
+}
+.contentbec.df a:hover{
+	color: #008441;
+}
+/******* /TUTORIALS *******/
+/******* Durango *******/
+.contentbec.dur h1{
+	background: transparent url(images/links.jpg) no-repeat scroll left top;
+}
+.contentbec.dur{
+	display: none;
+}
+.contentbec.dur a{
+	color: #7C7C7C;
+}
+.contentbec.dur a:hover{
+	color: #008441;
+}
+/******* /TUTORIALS *******/
+/******* Estado de Mexico *******/
+.contentbec.mex h1{
+	background: transparent url(images/links.jpg) no-repeat scroll left top;
+}
+.contentbec.mex{
+	display: none;
+}
+.contentbec.mex a{
+	color: #7C7C7C;
+}
+.contentbec.mex a:hover{
+	color: #008441;
+}
+/******* /TUTORIALS *******/
+/******* Guanajuato *******/
+.contentbec.gua h1{
+	background: transparent url(images/links.jpg) no-repeat scroll left top;
+}
+.contentbec.gua{
+	display: none;
+}
+.contentbec.gua a{
+	color: #7C7C7C;
+}
+.contentbec.gua a:hover{
+	color: #008441;
+}
+/******* /TUTORIALS *******/
+/******* Guerrero *******/
+.contentbec.gue h1{
+	background: transparent url(images/links.jpg) no-repeat scroll left top;
+}
+.contentbec.gue{
+	display: none;
+}
+.contentbec.gue a{
+	color: #7C7C7C;
+}
+.contentbec.gue a:hover{
+	color: #008441;
+}
+/******* /TUTORIALS *******/
+/******* Hidalgo *******/
+.contentbec.hgo h1{
+	background: transparent url(images/links.jpg) no-repeat scroll left top;
+}
+.contentbec.hgo{
+	display: none;
+}
+.contentbec.hgo a{
+	color: #7C7C7C;
+}
+.contentbec.hgo a:hover{
+	color: #008441;
+}
+/******* /TUTORIALS *******/
+/******* Jalisco *******/
+.contentbec.jal h1{
+	background: transparent url(images/links.jpg) no-repeat scroll left top;
+}
+.contentbec.jal{
+	display: none;
+}
+.contentbec.jal a{
+	color: #7C7C7C;
+}
+.contentbec.jal a:hover{
+	color: #008441;
+}
+/******* /TUTORIALS *******/
+/******* Michoacan *******/
+.contentbec.mich h1{
+	background: transparent url(images/links.jpg) no-repeat scroll left top;
+}
+.contentbec.mich{
+	display: none;
+}
+.contentbec.mich a{
+	color: #7C7C7C;
+}
+.contentbec.mich a:hover{
+	color: #008441;
+}
+/******* /TUTORIALS *******/
+/******* Morelos *******/
+.contentbec.mor h1{
+	background: transparent url(images/links.jpg) no-repeat scroll left top;
+}
+.contentbec.mor{
+	display: none;
+}
+.contentbec.mor a{
+	color: #7C7C7C;
+}
+.contentbec.mor a:hover{
+	color: #008441;
+}
+/******* /TUTORIALS *******/
+/******* Nayarit *******/
+.contentbec.nay h1{
+	background: transparent url(images/links.jpg) no-repeat scroll left top;
+}
+.contentbec.nay{
+	display: none;
+}
+.contentbec.nay a{
+	color: #7C7C7C;
+}
+.contentbec.nay a:hover{
+	color: #008441;
+}
+/******* /TUTORIALS *******/
+/******* Nuevo Leon *******/
+.contentbec.nl h1{
+	background: transparent url(images/links.jpg) no-repeat scroll left top;
+}
+.contentbec.nl{
+	display: none;
+}
+.contentbec.nl a{
+	color: #7C7C7C;
+}
+.contentbec.nl a:hover{
+	color: #008441;
+}/******* /TUTORIALS *******/
+/******* Oaxaca *******/
+.contentbec.oax h1{
+	background: transparent url(images/links.jpg) no-repeat scroll left top;
+}
+.contentbec.oax{
+	display: none;
+}
+.contentbec.oax a{
+	color: #7C7C7C;
+}
+.contentbec.oax a:hover{
+	color: #008441;
+}
+/******* /TUTORIALS *******/
+/******* Puebla *******/
+.contentbec.pue h1{
+	background: transparent url(images/links.jpg) no-repeat scroll left top;
+}
+.contentbec.pue{
+	display: none;
+}
+.contentbec.pue a{
+	color: #7C7C7C;
+}
+.contentbec.pue a:hover{
+	color: #008441;
+}
+/******* /TUTORIALS *******/
+/******* Queretaro *******/
+.contentbec.qro h1{
+	background: transparent url(images/links.jpg) no-repeat scroll left top;
+}
+.contentbec.qro{
+	display: none;
+}
+.contentbec.qro a{
+	color: #7C7C7C;
+}
+.contentbec.qro a:hover{
+	color: #008441;
+}
+/******* /TUTORIALS *******/
+/******* Quintana Roo *******/
+.contentbec.qroo h1{
+	background: transparent url(images/links.jpg) no-repeat scroll left top;
+}
+.contentbec.qroo{
+	display: none;
+}
+.contentbec.qroo a{
+	color: #7C7C7C;
+}
+.contentbec.qroo a:hover{
+	color: #008441;
+}
+/******* /TUTORIALS *******/
+/******* San Luis Potosi *******/
+.contentbec.slp h1{
+	background: transparent url(images/links.jpg) no-repeat scroll left top;
+}
+.contentbec.slp{
+	display: none;
+}
+.contentbec.slp a{
+	color: #7C7C7C;
+}
+.contentbec.slp a:hover{
+	color: #008441;
+}
+/******* /TUTORIALS *******/
+/******* Sinaloa *******/
+.contentbec.sin h1{
+	background: transparent url(images/links.jpg) no-repeat scroll left top;
+}
+.contentbec.sin{
+	display: none;
+}
+.contentbec.sin a{
+	color: #7C7C7C;
+}
+.contentbec.sin a:hover{
+	color: #008441;
+}
+/******* /TUTORIALS *******/
+/******* Sonora *******/
+.contentbec.son h1{
+	background: transparent url(images/links.jpg) no-repeat scroll left top;
+}
+.contentbec.son{
+	display: none;
+}
+.contentbec.son a{
+	color: #7C7C7C;
+}
+.contentbec.son a:hover{
+	color: #008441;
+}
+/******* /TUTORIALS *******/
+/******* Tabasco *******/
+.contentbec.tab h1{
+	background: transparent url(images/links.jpg) no-repeat scroll left top;
+}
+.contentbec.tab{
+	display: none;
+}
+.contentbec.tab a{
+	color: #7C7C7C;
+}
+.contentbec.tab a:hover{
+	color: #008441;
+}
+/******* /TUTORIALS *******/
+/******* Tamaulipas *******/
+.contentbec.tamps h1{
+	background: transparent url(images/links.jpg) no-repeat scroll left top;
+}
+.contentbec.tamps{
+	display: none;
+}
+.contentbec.tamps a{
+	color: #7C7C7C;
+}
+.contentbec.tamps a:hover{
+	color: #008441;
+}
+/******* /TUTORIALS *******/
+/******* Tlaxcala *******/
+.contentbec.tlax h1{
+	background: transparent url(images/links.jpg) no-repeat scroll left top;
+}
+.contentbec.tlax{
+	display: none;
+}
+.contentbec.tlax a{
+	color: #7C7C7C;
+}
+.contentbec.tlax a:hover{
+	color: #008441;
+}
+/******* /TUTORIALS *******/
+/******* Veracruz *******/
+.contentbec.ver h1{
+	background: transparent url(images/links.jpg) no-repeat scroll left top;
+}
+.contentbec.ver{
+	display: none;
+}
+.contentbec.ver a{
+	color: #7C7C7C;
+}
+.contentbec.ver a:hover{
+	color: #008441;
+}
+/******* /TUTORIALS *******/
+/******* Yucatan *******/
+.contentbec.yuc h1{
+	background: transparent url(images/links.jpg) no-repeat scroll left top;
+}
+.contentbec.yuc{
+	display: none;
+}
+.contentbec.yuc a{
+	color: #7C7C7C;
+}
+.contentbec.yuc a:hover{
+	color: #008441;
+}
+/******* /TUTORIALS *******/
+/******* Zacatecas *******/
+.contentbec.zac h1{
+	background: transparent url(images/links.jpg) no-repeat scroll left top;
+}
+.contentbec.zac{
+	display: none;
+}
+.contentbec.zac a{
+	color: #7C7C7C;
+}
+.contentbec.zac a:hover{
+	color: #008441;
+}
+/******* /LINKS *******/

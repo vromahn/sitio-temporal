@@ -1,0 +1,44 @@
+#info-main{
+
+	margin-top: 10px;
+	margin-left: 5px;
+	margin-right: 10px;
+	#margin-top: 10px;
+	#margin-left: 5px;
+	#margin-right: 10px;
+	
+
+}
+
+#info-main-content{
+
+	margin-top: 15px;
+	margin-left: 15px;
+	margin-right: 10px;
+	#margin-top: 5px;
+	#margin-left: -5px;
+	font:13px "Soberana Sans", serif !important;
+	
+	
+}
+
+#h1-content{
+font:10px "Soberana Sans", serif !important; 
+};
+
+#h3-content{
+font:9px "Soberana Sans", serif !important; 
+};
+
+
+#publications{
+	margin-top: 30px;
+	#margin-top: 30px;
+	background-color: #e5e5e5;
+	width: 200px;	
+	-webkit-box-shadow: -2px 5px 5px rgba(87, 87, 87, 0.48);
+	-moz-box-shadow:    -2px 5px 5px rgba(87, 87, 87, 0.48);
+	box-shadow:         -2px 5px 5px rgba(87, 87, 87, 0.48);
+	visibility: hidden;
+}
+

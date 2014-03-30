@@ -1,0 +1,103 @@
+
+#header-tag{
+	margin-left: auto;
+	margin-right: auto;
+	width: 970px;
+	height: 209px;
+	
+
+}
+
+#box-tag{
+	background-color: #fdb714;
+	width: 260px;
+	height: 209px;
+	
+
+}
+
+#box-tag img{
+
+	margin-top: 50px;
+	
+}
+
+#myCarousel-1{
+
+	width: 710px;
+	height: 209px;
+}
+
+#publications{
+	margin-top: 30px;
+	background-color: #e5e5e5;
+	width: 200px;
+	height: 500px;
+	-webkit-box-shadow: -2px 5px 5px rgba(87, 87, 87, 0.48);
+	-moz-box-shadow:    -2px 5px 5px rgba(87, 87, 87, 0.48);
+	box-shadow:         -2px 5px 5px rgba(87, 87, 87, 0.48);
+	visibility:hidden;
+}
+
+#publications-title{
+
+	background-color: #e5e5e5;
+	width: 200px;
+	height: 25px;
+	background: -webkit-linear-gradient(#B62025, black);
+   	background: -moz-linear-gradient(#B62025, black);
+   	background: -o-linear-gradient(#B62025, black);
+   	color:white;
+}
+
+.publications-div{
+
+	margin-top: 10px;
+	width: 200px;
+	height: 85px;
+	
+}
+
+.publications-title-text{
+
+	color: #B62025;
+	font-size: 10px;
+	text-decoration: underline;
+	font:13px "Soberana Sans",Calibri, sans-serif;
+}
+
+.inf-div-custom{
+
+
+	margin-top: 10px;
+	width: 241px;
+	height: 241px;
+	border-top: 1px dotted yellow;
+	border-left: 1px dotted yellow;
+	border-right: 1px dotted yellow;
+	border-bottom: 1px dotted yellow;
+}
+
+.inf-div-content-text{
+
+	margin-left: 5px;
+}
+
+
+#tools-custom{
+
+	background-color: #e5e5e5;
+	width: 200px;
+	height: 429px;
+}
+
+.text-inf-small{
+
+	color:#fdb714;
+	font:13px "Soberana Sans",Calibri, sans-serif;
+}
+
+.link-small{
+
+	font:10px "Soberana Sans",Calibri, sans-serif;
+}

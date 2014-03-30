@@ -1,0 +1,865 @@
+﻿<!DOCTYPE HTML>
+<html>
+	<head>
+	<title>Portal de la Educación Básica en México</title>
+		<meta name="title" content="Portal de la Educación Básica en México">
+		<meta name="DC.Title" content="Portal de la Educación Básica en México">
+		<meta http-equiv="title" content="Portal de la Educación Básica en México">		
+		<meta name="keywords" content="maestros, alumnos, directivos, familia, escuela, primaria, secundaria, preescolar, educación, básica, indígena, méxico, académica, formacion continua, desarrollo curricular, innovación, educativa, materiales, informática, incial,">
+		<meta http-equiv="keywords" content"maestros, alumnos, directivos, familia, escuela, primaria, secundaria, preescolar, educación, básica, indígena, méxico, académica, formacion continua, desarrollo curricular, innovación, educativa, materiales, informática, incial,">
+		<meta name="description" content="Página de la Subsecretaría de Educación Básica de México.">
+		<meta http-equiv="description" content="Página de la Subsecretaría de Educación Básica de México.">
+		<meta http-equiv="DC.Description" content="Página de la Subsecretaría de Educación Básica de México.">
+		<meta name="author" content="SEB2013">
+		<meta name="DC.Creator" content="SEB2013">
+		<meta name="vw96.objectype" content="Homepage">
+		<meta name="resource-type" content="Homepage">
+		<meta http-equiv="Content-Type" content="ISO-8859-1">
+		<meta name="distribution" content="all">
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=9" />
+		<link rel="stylesheet" type="text/css" href="css/ebasica.css">
+		<link rel="stylesheet" type="text/css" href="css/tercera.css">
+		<link rel="stylesheet" type="text/css" href="css/base.css">
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+		<link href="css/bootstrap.icon-large.min.css" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="css/default.css">    	
+		<script src="js/jquery-1.10.2.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/application.js"></script>
+	
+		<script type="text/javascript">
+			$(function() {
+				 $('#images').carouFredSel({
+				 	items: 1,
+					direction: 'top',
+					auto: {
+						duration: 750,
+						timeoutDuration: 6000,
+						easing: 'quadratic',
+						onBefore: function() {
+							var index = $(this).triggerHandler( 'currentPosition' );
+							if ( index == 0 ) {
+								index = $(this).children().length;
+							}
+							$('#texts').trigger('slideTo', [ index, {
+								fx: 'directscroll'
+							}, 'prev' ]);
+						}
+					}
+				 });
+				 $('#texts').carouFredSel({
+					items: 1,
+					direction: 'left',
+					auto: {
+						play: false,
+						duration: 950,						
+						easing: 'quadratic'
+					}
+				 });
+			});
+		</script>
+		
+		<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-44616939-1', 'sep.gob.mx');
+  ga('send', 'pageview');
+
+</script>		
+		
+		<link @import url(http://basica.sep.gob.mx/fonts/css?family=Soberana Sans);>
+			
+		
+	</head>
+	<!-- Empieza el header -->
+	<body>
+
+
+		
+			<div id="content">
+				<div class="row" id="cabeza">
+					
+<!-- Imagen del logo sep con link-->
+		
+			<center><a href="http://sep.gob.mx"></a><img src="img/logoSEP_hoz.png"></center>
+		
+</div> 
+		
+<!-- Aquí comienza el menú desplegable -->
+		<div class="prueba" class="row" id="menu">
+			<div class="col-lg-4">
+				
+<!-- Titulo principal con link de la pagina basica.sep.gob.mx-->
+				<a href="http://basica.sep.gob.mx/" class="main-title"><p class="main-title"><center><strong>Subsecretaría de Educación Básica</strong></center></p></a>
+			</div>
+			<div class="col-lg-8">
+				<ul class="nav navbar-nav" id="nav-menu">
+				<li>
+					<div class="btn-blue" onclick="menu_blue('#305dab')" >
+						<div class"row">
+							
+<!-- Imagen menu ebasica -->
+							<img class="menu-icon" src="img/ebasica_white.png">
+						</div>
+						
+<!-- Titulo menu educacion basica -->
+						<center><div class"row"><p class="icon-name">educación básica</p></div></center>
+					</div>
+				</li>
+				<li>
+					<div class="btn-orange" onclick="menu_orange('#f26722')" >
+						<div class"row">
+<!-- Imagen menu alumnos -->
+							<img class="menu-icon" src="img/alumnos_white.png">
+						</div>
+<!-- Titulo menu alumnos -->
+						<center><div class"row"><p class="icon-name">alumnos</p></div></center>
+					</div>
+				</li>
+				<li>
+					
+
+					<div class="btn-red" onclick="menu_red('#ed1f24')">
+						<div class"row">
+							
+<!-- Imagen menu maestros -->
+							<img class="menu-icon" src="img/maestros_white.png">
+						</div>
+						
+<!-- Titulo menu maestros -->
+						<center><div class"row"><p class="icon-name">maestros</p></div></center>
+					</div>
+				</li>
+				<li>
+					<div class="btn-green" onclick="menu_green('#349996')">
+						<div class"row">
+<!-- Imagen menu directivos -->
+							<img class="menu-icon" src="img/directivos_white.png">
+						</div>
+						
+<!-- Titulo menu directivos -->
+						<center><div class"row"><p class="icon-name">directivos</p></div></center>
+					</div>
+				</li>
+				<li>
+					<div class="btn-purple" onclick="menu_purple(' #c23794')">
+						<div class"row">
+							
+<!-- Imagen menu escuela -->
+							<img class="menu-icon" src="img/escuela_white.png">
+						</div>
+						
+<!-- tutulo menu escuelas -->
+						<center><div class"row"><p class="icon-name">escuelas</p></div></center>
+					</div>
+				</li>
+				<li>
+					<div class="btn-yellow" onclick="menu_yellow('#fdb714')">
+						<div class"row">
+							
+<!-- Imagen menu familia -->
+							<img class="menu-icon" src="img/familia_white.png">
+						</div>
+						
+<!-- Titulo menu familia -->
+						<center><div class"row"><p class="icon-name">familia</p></div></center>
+					</div>
+				</li>
+			</ul>
+			</div>
+		</div>
+<!-- Termina el menú -->
+
+<!-- Menú desplegable -->
+		 		
+<!-- Inicia Menú desplegable ebasica -->
+		<div class="row" id="dmenu-blue">
+			<ul class="nav navbar-nav ul-menu-body" id="ul-menu-body-1">
+				<li>
+					
+<!--Contenido de Organizacion de la educacion basica-->
+					<div class="div-menu-body">
+							
+							<h4 class="header-text-menu">Organización de la Educación Básica</h4>
+					        <a class="header-text-link" href="http://basica.sep.gob.mx/seb2010/estructura.pdf" TARGET="_blank"> Estructura</a><br/>
+					        <a class="header-text-link" href="http://basica.sep.gob.mx/seb2010/directorio_seb_15ag2013.pdf" TARGET="_blank"> Directorio</a><br/>
+					        <a class="header-text-link" href="http://basica.sep.gob.mx/seb2010/interiores/interiores_filosofia.html">Misión, Visión y Objetivos</a><br/>
+					        <a class="header-text-link" href="http://normatecainterna.sep.gob.mx/" TARGET="_blank">Normatividad</a><br/>
+					        <a class="header-text-link" href="http://basica.sep.gob.mx/seb2010/interiores/interiores_sebenlosestados.html">Autoridades Educativas en las Entidades Federativas</a><br/>
+							</div>
+						</li>
+						<li>
+							
+<!--Contenido de Educación por niveles-->
+					<div class="div-menu-body">
+						
+							<h4 class="header-text-menu">Educación por niveles</h4>
+					        <a class="header-text-link" href=""> Inicial</a><br/>
+					        <a class="header-text-link" href="http://www.reformapreescolar.sep.gob.mx/" TARGET="_blank"> Preescolar</a><br/>
+					        <a class="header-text-link" href="http://basica.sep.gob.mx/reformaintegral/sitio/index.php?act=primaria" TARGET="_blank"> Primaria</a><br/>
+					        <a class="header-text-link" href="http://basica.sep.gob.mx/reformasecundaria/" TARGET="_blank"> Secundaria</a><br/>
+					        <a class="header-text-link" href="http://telesecundaria.dgme.sep.gob.mx/" TARGET="_blank">Telesecundaria</a><br/>					        
+					        <a class="header-text-link" href="http://www.educacionespecial.sep.gob.mx/" TARGET="_blank" > Especial</a><br/>
+					        <a class="header-text-link" href="http://basica.sep.gob.mx/dgei/" TARGET="_blank"> Indígena</a><br/>
+							</div>
+						</li>                                                
+					
+				<li>
+					
+<!--Contenido de Programas Nacionales de Educación Básica-->
+					<div class="div-menu-body">
+						
+							<h4 class="header-text-menu">Programas Nacionales de Educación Básica</h4>
+					        <a class="header-text-link" href="http://basica.sep.gob.mx/tiempocompleto/" TARGET="_blank"> Escuelas de Tiempo Completo</a><br/>
+					        
+					        <a class="header-text-link" href="http://basica.sep.gob.mx/escuelasegura/" TARGET="_blank"> Escuela segura</a><br/>					        
+					        <a class="header-text-link" href="http://lectura.dgme.sep.gob.mx/" TARGET="_blank"> Programa Nacional de lectura y Escritura</a><br/>
+					        <a class="header-text-link" href="http://basica.sep.gob.mx/pec/" TARGET="_blank"> Escuelas de calidad</a><br/>
+					        <!-- <a class="header-text-link" href="http://basica.sep.gob.mx/escuelasiempreabierta/"> Escuela siempre abierta</a><br/> -->					        
+					        					        
+							</div>
+						</li>
+				<li>
+					
+<!--Contenido de Cifras de Educación Básica-->
+					<div class="div-menu-body">
+						
+							<h4 class="header-text-menu">Cifras de Educación Básica</h4>
+					        <a class="header-text-link" href="http://www.snie.sep.gob.mx/estadisticas_educativas.html" TARGET="_blank"> Estadísticas educativas</a><br/>
+					        <a class="header-text-link" href="http://basica.sep.gob.mx/eval_ext2013.html" TARGET="_blank"> Evaluaciones</a><br/>
+					        <a class="header-text-link" href="http://portaltransparencia.gob.mx/buscador/search/search.do?method=drillDown&fstNavegadores=unidadadministrativanavigator**SUBSECRETAR%CDA%20DE%20EDUCACI%D3N%20B%C1SICA&navegador=unidadadministrativanavigator&modifier=SUBSECRETAR%CDA%20DE%20EDUCACI%D3N%20B%C1SICA&idDependenciaZoom=&searchBy=1&idFraccionZoom=" TARGET="_blank"> Transparencia</a><br/>
+					        <a class="header-text-link" href="https://www.infomex.org.mx/gobiernofederal/home.action" TARGET="_blank"> Rendición de cuentas</a><br/>					        
+					        <a class="header-text-link" href="http://pnd.gob.mx/#eje-3" TARGET="_blank"> Educación de Calidad: PND-2013-2018</a><br/>
+							</div>
+						</li>
+				<li>
+					
+<!--Contenido de Lo más Relevante-->
+					<div class="div-menu-body">
+						<h4 class="header-text-menu">Lo más Relevante</h4>
+                             <a class="header-text-link" href="http://basica.sep.gob.mx/Catalogo_LR_2013-2014.pdf" TARGET="_blank">Catálogo Libros del Rincón 2013-2014</a><br/>					
+							<a class="header-text-link" href="http://basica.sep.gob.mx/seb2010/CalendarioEscolar2013-2014.pdf" TARGET="_blank"> Calendario Escolar</a><br/>
+							<a class="header-text-link" href="http://basica.sep.gob.mx/seb2010/pdf/listautiles/ListaUtiles_SEPPROFECO.pdf" TARGET="_blank"> Lista de útiles escolares</a><br/>
+							<a class="header-text-link" href="http://basica.sep.gob.mx/seb2010/interiores/interiores_cuartareunion.html"> Sistema básico de mejora educativa...</a><br/>
+							<a class="header-text-link" href="http://basica.sep.gob.mx/seb2010/interiores/interiores_cuartareunion.html"> Estrategia nacional de los CTE...</a><br/>
+							<a class="header-text-link" href="http://basica.sep.gob.mx/seb2010/interiores/interiores_cuartareunion.html"> Una supervisión efectiva...</a><br/>
+
+					</div>
+				</li>
+
+			</ul>
+			<button type="button" class="close" data-dismiss="modal" id="close-button-blue" aria-hidden="true">Cerrar &#88;</button>
+		</div>
+		
+<!-- Termina Menú desplegable ebasica -->
+		
+<!-- Inicia Menú desplegable alumnos -->
+		<div class="row" id="dmenu-orange">
+			<ul class="nav navbar-nav ul-menu-body" id="ul-menu-body-1">
+				<li>
+					
+<!--Contenido de Inicial-->
+					<div class="div-menu-body">
+						
+							<h4 class="header-text-menu">Inicial</h4>
+					       
+					        
+					       
+							</div>
+						</li>
+						<li>
+							
+<!--Contenido de Preescolar-->
+					<div class="div-menu-body">
+						
+							<h4 class="header-text-menu">Preescolar</h4>					        
+					        <a class="header-text-link" href="http://basica.sep.gob.mx/seb2010/CalendarioEscolar2013-2014.pdf" TARGET="_blank"> Calendario Escolar</a><br/>
+					        <a class="header-text-link" href="http://basica.sep.gob.mx/reformaintegral/sitio/index.php?act=buscadorlibros" TARGET="_blank"> Materiales Educativos</a><br/>
+					        <a class="header-text-link" href=""> Tecnologías Educativas</a><br/>
+					        <a class="header-text-link" href="http://basica.sep.gob.mx/seb2010/interiores/interiores_becas.html"> Becas Educativas</a><br/>
+					       
+							</div>
+						</li>                                                
+					
+				<li>
+					
+<!--Contenido de Primaria-->
+					<div class="div-menu-body">
+						
+							<h4 class="header-text-menu">Primaria</h4>					        
+					        <a class="header-text-link" href="http://basica.sep.gob.mx/seb2010/CalendarioEscolar2013-2014.pdf" TARGET="_blank"> Calendario Escolar</a><br/>
+					        <a class="header-text-link" href="http://basica.sep.gob.mx/reformaintegral/sitio/index.php?act=buscadorlibros" TARGET="_blank"> Materiales Educativos</a><br/>
+					        <a class="header-text-link" href=""> Tecnologías Educativas</a><br/>
+					       <a class="header-text-link" href="http://basica.sep.gob.mx/seb2010/interiores/interiores_becas.html"> Becas Educativas</a><br/>
+					      			        
+							</div>
+						</li>
+				<li>
+					
+<!--Contenido de Secundaria-->
+					<div class="div-menu-body">
+						
+							<h4 class="header-text-menu">Secundaria</h4>					        
+					        <a class="header-text-link" href="http://basica.sep.gob.mx/seb2010/CalendarioEscolar2013-2014.pdf" TARGET="_blank"> Calendario Escolar</a><br/>
+					        <a class="header-text-link" href="http://basica.sep.gob.mx/reformaintegral/sitio/index.php?act=buscadorlibros" TARGET="_blank"> Materiales Educativos</a><br/>
+					        <a class="header-text-link" href=""> Tecnologías Educativas</a><br/>
+					        <a class="header-text-link" href="http://basica.sep.gob.mx/seb2010/interiores/interiores_becas.html"> Becas Educativas</a><br/>
+					        
+							</div>
+						</li>
+				<li>
+					
+<!--Contenido de Lo mas relevante-->
+					<div class="div-menu-body">
+
+							<h4 class="header-text-menu">Lo más Relevante</h4>
+							<a class="header-text-link" href="http://basica.sep.gob.mx/Catalogo_LR_2013-2014.pdf" TARGET="_blank">Catálogo Libros del Rincón 2013-2014</a><br/>					
+							<a class="header-text-link" href="http://basica.sep.gob.mx/seb2010/CalendarioEscolar2013-2014.pdf" TARGET="_blank"> Calendario Escolar</a><br/>
+							<a class="header-text-link" href="http://basica.sep.gob.mx/seb2010/pdf/listautiles/ListaUtiles_SEPPROFECO.pdf" TARGET="_blank"> Lista de útiles escolares</a><br/>
+							<a class="header-text-link" href="http://basica.sep.gob.mx/seb2010/interiores/interiores_cuartareunion.html"> Sistema básico de mejora educativa...</a><br/>
+							<a class="header-text-link" href="http://basica.sep.gob.mx/seb2010/interiores/interiores_cuartareunion.html"> Estrategia nacional de los CTE...</a><br/>
+							<a class="header-text-link" href="http://basica.sep.gob.mx/seb2010/interiores/interiores_cuartareunion.html"> Una supervisión efectiva...</a><br/>
+							
+
+					</div>
+				</li>
+				
+			</ul>
+			<button type="button" class="close" data-dismiss="modal" id="close-button-orange" aria-hidden="true">Cerrar &#88;</button>
+		</div>
+		
+		
+<!-- Termina menu desplegable alumnos -->
+		
+<!-- Inicia Menú desplegable maestros -->		
+		<div class="row" id="dmenu-red">
+			<ul class="nav navbar-nav ul-menu-body" id="ul-menu-body-1">
+				<li>
+					
+<!--Contenido de Inicial-->
+					<div class="div-menu-body">
+						
+							<h4 class="header-text-menu">Inicial</h4>
+					        <a class="header-text-link" href="MODELO_ATENCION.pdf" TARGET="_blank"> Modelo Educativo</a><br/>
+					        <a class="header-text-link" href="AGENTE_EDUCATIVO.pdf" TARGET="_blank">Ser Agente Educativo</a><br/>
+					        
+					        
+							</div>
+						</li>
+						<li>
+							
+<!--Contenido de preescolar-->
+					<div class="div-menu-body">
+						
+							<h4 class="header-text-menu">Preescolar</h4>
+					        <a class="header-text-link" href="http://www.curriculobasica.sep.gob.mx/index.php/prog-preescolar1" TARGET="_blank"> Programa de estudio</a><br/>
+					        <a class="header-text-link" href="http://basica.sep.gob.mx/reformaintegral/sitio/index.php?act=buscadorlibros" TARGET="_blank"> Materiales Educativos</a><br/>
+					        <a class="header-text-link" href="http://www.curriculobasica.sep.gob.mx/index.php/prog-preescolar1/campos-formativos" TARGET="_blank"> Materiales para el desarrollo curricular</a><br/>
+					        <a class="header-text-link" href="http://basica.sep.gob.mx/reformaintegral/sitio/index.php?act=buscadorlibros" TARGET="_blank"> Materiales para la formación continua</a><br/>
+					        <a class="header-text-link" href=""> Tecnologías Educativas</a><br/>
+					        <a class="header-text-link" href="http://basica.sep.gob.mx/seb2010/CalendarioEscolar2013-2014.pdf" TARGET="_blank"> Calendario Escolar</a><br/>
+					       
+							</div>
+						</li>                                                
+					
+				<li>
+					
+<!--Contenido de primaria-->
+					<div class="div-menu-body">
+						
+							<h4 class="header-text-menu">Primaria</h4>
+					        <a class="header-text-link" href=" http://www.curriculobasica.sep.gob.mx/index.php/prog-primaria" TARGET="_blank"> Programas de estudio</a><br/>
+					        <a class="header-text-link" href="http://basica.sep.gob.mx/reformaintegral/sitio/index.php?act=buscadorlibros" TARGET="_blank"> Materiales Educativos</a><br/>
+					        <a class="header-text-link" href="http://www.curriculobasica.sep.gob.mx/index.php/prog-primaria" TARGET="_blank"> Materiales para el desarrollo curricular</a><br/>
+					        <a class="header-text-link" href="http://basica.sep.gob.mx/reformaintegral/sitio/index.php?act=buscadorlibros" TARGET="_blank"> Materiales para la formación continua</a><br/>
+					        <a class="header-text-link" href=""> Tecnologías Educativas</a><br/>
+					        <a class="header-text-link" href="http://basica.sep.gob.mx/seb2010/CalendarioEscolar2013-2014.pdf" TARGET="_blank"> Calendario Escolar</a><br/>
+					        				        
+							</div>
+						</li>
+				<li>
+					
+<!--Contenido de secundaria-->
+					<div class="div-menu-body">
+						
+							<h4 class="header-text-menu">Secundaria</h4>
+					        <a class="header-text-link" href="http://www.curriculobasica.sep.gob.mx/index.php/prog-secundaria" TARGET="_blank"> Programas de estudio</a><br/>
+					        <a class="header-text-link" href="http://basica.sep.gob.mx/reformaintegral/sitio/index.php?act=buscadorlibros" TARGET="_blank"> Materiales Educativos</a><br/>
+					        <a class="header-text-link" href="http://www.curriculobasica.sep.gob.mx/index.php/prog-secundaria" TARGET="_blank"> Materiales para el desarrollo curricular</a><br/>
+					        <a class="header-text-link" href="http://basica.sep.gob.mx/reformaintegral/sitio/index.php?act=buscadorlibros" TARGET="_blank"> Materiales para la formación continua</a><br/>
+					        <a class="header-text-link" href=""> Tecnologías Educativas</a><br/>
+					        <a class="header-text-link" href="http://basica.sep.gob.mx/seb2010/CalendarioEscolar2013-2014.pdf" TARGET="_blank"> Calendario Escolar</a><br/>
+					       
+							</div>
+						</li>
+				<li>
+					
+<!--Contenido de lo mas relevante-->
+					<div class="div-menu-body">
+						<h4 class="header-text-menu">Lo más Relevante</h4>
+						
+				    		 <a class="header-text-link" href="http://www.consultasrodac.sep.gob.mx/reporte_evaluacion/index.html" TARGET="_blank">Reporte de Evaluación</a><br/>
+				    		 <a class="header-text-link" href="http://basica.sep.gob.mx/acuerdo_696.pdf" TARGET="_blank">Acuerdo 696</a><br/>
+						
+						    <a class="header-text-link" href="http://basica.sep.gob.mx/Catalogo_LR_2013-2014.pdf" TARGET="_blank">Catálogo Libros del Rincón 2013-2014</a><br/>					
+							<a class="header-text-link" href="http://basica.sep.gob.mx/seb2010/CalendarioEscolar2013-2014.pdf" TARGET="_blank"> Calendario Escolar</a><br/>
+							<a class="header-text-link" href="http://www.curriculobasica.sep.gob.mx/index.php/plan-estudios/plan-estudios" TARGET="_blank"> Plan de estudios</a><br/>
+							<!-- <a class="header-text-link" href="http://basica.sep.gob.mx/seb2010/pdf/listautiles/ListaUtiles_SEPPROFECO.pdf"> Lista de útiles escolares</a><br/> -->
+							<a class="header-text-link" href="http://basica.sep.gob.mx/seb2010/interiores/interiores_cuartareunion.html"> Sistema básico de mejora educativa...</a><br/>
+							<a class="header-text-link" href="http://basica.sep.gob.mx/seb2010/interiores/interiores_cuartareunion.html"> Estrategia nacional de los CTE...</a><br/>
+							<a class="header-text-link" href="http://basica.sep.gob.mx/seb2010/interiores/interiores_cuartareunion.html"> Una supervisión efectiva...</a><br/>
+					</div>
+				</li>
+				
+			</ul>
+			<button type="button" class="close" data-dismiss="modal" id="close-button-red" aria-hidden="true">Cerrar &#88;</button>
+		</div>
+		
+<!-- Termina Menú desplegable maestros -->
+		
+		
+<!-- Inicia Menú desplegable Directivos -->
+		<div class="row" id="dmenu-green">
+			<ul class="nav navbar-nav ul-menu-body" id="ul-menu-body-1">
+				<li>
+					
+<!--Contenido inicial-->
+					<div class="div-menu-body">
+						
+							<h4 class="header-text-menu">Inicial</h4>
+					        
+					       
+							</div>
+						</li>
+						<li>
+							
+<!--Contenido de preescolar-->
+					<div class="div-menu-body">
+						
+							<h4 class="header-text-menu">Preescolar</h4>
+					        <a class="header-text-link" href="http://basica.sep.gob.mx/seb2010/CalendarioEscolar2013-2014.pdf" TARGET="_blank"> Calendario Escolar</a><br/>
+					        <a class="header-text-link" href="http://www.curriculobasica.sep.gob.mx/index.php/prog-preescolar1" TARGET="_blank"> Programa de estudio</a><br/>
+					        <a class="header-text-link" href="http://basica.sep.gob.mx/reformaintegral/sitio/index.php?act=buscadorlibros" TARGET="_blank"> Materiales Educativos</a><br/>
+					        <a class="header-text-link" href="http://www.curriculobasica.sep.gob.mx/index.php/prog-preescolar1/campos-formativos" TARGET="_blank"> Materiales para el desarrollo curricular</a><br/>
+					        <a class="header-text-link" href="http://basica.sep.gob.mx/reformaintegral/sitio/index.php?act=buscadorlibros" TARGET="_blank"> Materiales para la formación continua</a><br/>
+					        <a class="header-text-link" href=""> Tecnologías Educativas</a><br/>
+					        
+							</div>
+						</li>                                                
+					
+				<li>
+					
+<!--Contenido de primaria-->
+					<div class="div-menu-body">
+						
+							<h4 class="header-text-menu">Primaria</h4>
+					        <a class="header-text-link" href="http://basica.sep.gob.mx/seb2010/CalendarioEscolar2013-2014.pdf" TARGET="_blank"> Calendario Escolar</a><br/>
+					        <a class="header-text-link" href="http://www.curriculobasica.sep.gob.mx/index.php/prog-primaria" TARGET="_blank"> Programas de estudio</a><br/>
+					        <a class="header-text-link" href="http://basica.sep.gob.mx/reformaintegral/sitio/index.php?act=buscadorlibros" TARGET="_blank"> Materiales Educativos</a><br/>
+					        <a class="header-text-link" href="http://www.curriculobasica.sep.gob.mx/index.php/prog-primaria" TARGET="_blank"> Materiales para el desarrollo curricular</a><br/>
+					        <a class="header-text-link" href="http://basica.sep.gob.mx/reformaintegral/sitio/index.php?act=buscadorlibros" TARGET="_blank"> Materiales para la formación continua</a><br/>
+					        <a class="header-text-link" href=""> Tecnologías Educativas</a><br/>
+					       			        
+							</div>
+						</li>
+				<li>
+					
+<!--Contenido de secundaria-->
+					<div class="div-menu-body">
+						
+							<h4 class="header-text-menu">Secundaria</h4>
+					        <a class="header-text-link" href="http://basica.sep.gob.mx/seb2010/CalendarioEscolar2013-2014.pdf" TARGET="_blank"> Calendario Escolar</a><br/>
+					        <a class="header-text-link" href="http://www.curriculobasica.sep.gob.mx/index.php/prog-secundaria" TARGET="_blank"> Programas de estudio</a><br/>
+					        <a class="header-text-link" href="http://basica.sep.gob.mx/reformaintegral/sitio/index.php?act=buscadorlibros" TARGET="_blank"> Materiales Educativos</a><br/>
+					        <a class="header-text-link" href="http://www.curriculobasica.sep.gob.mx/index.php/prog-secundaria" TARGET="_blank"> Materiales para el desarrollo curricular</a><br/>
+					        <a class="header-text-link" href="http://basica.sep.gob.mx/reformaintegral/sitio/index.php?act=buscadorlibros" TARGET="_blank"> Materiales para la formación continua</a><br/>
+					        <a class="header-text-link" href=""> Tecnologías Educativas</a><br/>
+					       
+							</div>
+						</li>
+				<li>
+					
+<!--Contenido de lo mas relevante-->
+					<div class="div-menu-body">
+						<h4 class="header-text-menu">Lo más Relevante</h4>
+						
+						    <a class="header-text-link" href="http://www.consultasrodac.sep.gob.mx/reporte_evaluacion/index.html" TARGET="_blank">Reporte de Evaluación</a><br/>
+						    <a class="header-text-link" href="http://basica.sep.gob.mx/acuerdo_696.pdf" TARGET="_blank">Acuerdo 696</a><br/>
+						   
+						    <a class="header-text-link" href="http://basica.sep.gob.mx/Catalogo_LR_2013-2014.pdf" TARGET="_blank">Catálogo Libros del Rincón 2013-2014</a><br/>					
+						    <a class="header-text-link" href="http://basica.sep.gob.mx/diplomado.html" >Diplomado para supervisores</a><br/>
+							<a class="header-text-link" href="http://basica.sep.gob.mx/seb2010/CalendarioEscolar2013-2014.pdf" TARGET="_blank"> Calendario Escolar</a><br/>
+							<a class="header-text-link" href="http://www.curriculobasica.sep.gob.mx/index.php/plan-estudios/plan-estudios" TARGET="_blank"> Plan de estudios</a><br/>
+							<!-- <a class="header-text-link" href="http://basica.sep.gob.mx/seb2010/pdf/listautiles/ListaUtiles_SEPPROFECO.pdf"> Lista de útiles escolares</a><br/> -->
+							<a class="header-text-link" href="http://basica.sep.gob.mx/seb2010/interiores/interiores_cuartareunion.html"> Sistema básico de mejora educativa...</a><br/>
+							<a class="header-text-link" href="http://basica.sep.gob.mx/seb2010/interiores/interiores_cuartareunion.html"> Estrategia nacional de los CTE...</a><br/>
+							<a class="header-text-link" href="http://basica.sep.gob.mx/seb2010/interiores/interiores_cuartareunion.html"> Una supervisión efectiva...</a><br/>
+					</div>
+				</li>
+				
+			</ul>
+			<button type="button" class="close" data-dismiss="modal" id="close-button-green" aria-hidden="true">Cerrar &#88;</button>
+		</div>
+		
+<!-- Termina Menú desplegable Directivos -->		
+		
+		
+<!-- Inicia Menú desplegable Escuela -->
+		<div class="row" id="dmenu-purple">
+			<ul class="nav navbar-nav ul-menu-body" id="ul-menu-body-1">
+				<li
+				
+<!--Contenido de escuelas por nivel educativo-->
+					<div class="div-menu-body">
+						
+							<h4 class="header-text-menu">Escuelas por Nivel Educativo</h4>
+					        <a class="header-text-link" href=""> Inicial</a><br/>
+					        <a class="header-text-link" href="http://www.snie.sep.gob.mx/SNIESC/" TARGET="_blank"> Preescolar</a><br/>
+					        <a class="header-text-link" href="http://www.snie.sep.gob.mx/SNIESC/" TARGET="_blank"> Primaria</a><br/>
+					        <a class="header-text-link" href="http://www.snie.sep.gob.mx/SNIESC/" TARGET="_blank"> Secundaria</a><br/>
+					        <a class="header-text-link" href="http://www.snie.sep.gob.mx/SNIESC/" TARGET="_blank"> Especial</a><br/>
+					        <a class="header-text-link" href="http://www.snie.sep.gob.mx/SNIESC/" TARGET="_blank"> Indígena</a><br/>
+							</div>
+						</li>
+						<li>
+							
+<!--Contenido de Programas nacionales de educacion basica-->
+					<div class="div-menu-body">
+						
+							<h4 class="header-text-menu">Programas Nacionales de Educación Básica</h4>
+					        <a class="header-text-link" href="http://basica.sep.gob.mx/tiempocompleto/" TARGET="_blank"> Escuelas de Tiempo Completo</a><br/>
+					       <!-- <a class="header-text-link" href="http://basica.sep.gob.mx/pec/"> Escuelas de calidad</a><br/> -->
+					        <a class="header-text-link" href="http://basica.sep.gob.mx/escuelasegura/" TARGET="_blank"> Escuela segura</a><br/>					        
+					        <a class="header-text-link" href="http://lectura.dgme.sep.gob.mx/" TARGET="_blank"> Programa Nacional de lectura y Escritura</a><br/>
+					        <a class="header-text-link" href="http://basica.sep.gob.mx/pec/" TARGET="_blank"> Escuelas de calidad</a><br/>
+					        <!-- <a class="header-text-link" href="http://basica.sep.gob.mx/escuelasiempreabierta/"> Escuela siempre abierta</a><br/> -->
+							</div>
+						</li>                                                
+					
+				<li>
+					
+<!--Contenido de Servicios de educacion basica-->
+					<div class="div-menu-body">
+						
+							<h4 class="header-text-menu">Servicios en Educación Básica</h4>
+					        <a class="header-text-link" href="http://www.controlescolar.sep.gob.mx/index.php/basica" TARGET="_blank"> Control Escolar</a><br/>
+					        <a class="header-text-link" href="http://www.enlace.sep.gob.mx/ba/" TARGET="_blank"> Enlace</a><br/>
+					        <a class="header-text-link" href="http://www.snie.sep.gob.mx/indicadores_y_pronosticos.html" TARGET="_blank"> Indicadores de la Educación Básica</a><br/>
+					        <a class="header-text-link" href="http://goo.gl/vdbOn0" TARGET="_blank"> Registro Nacional de Alumnos</a><br/>
+					        <a class="header-text-link" href="http://consultas.curp.gob.mx/CurpSP/" TARGET="_blank"> Obtén tu CURP</a><br/>				        
+							</div>
+						</li>
+				<li>
+					
+<!--Contenido de Cifras de educacion basica-->
+					<div class="div-menu-body">
+						
+							<h4 class="header-text-menu">Cifras de Educación Básica</h4>
+					        <a class="header-text-link" href="http://www.snie.sep.gob.mx/estadisticas_educativas.html" TARGET="_blank"> Estadísticas educativas</a><br/>
+					        <a class="header-text-link" href=""> Evaluaciones</a><br/>
+					        <a class="header-text-link" href="http://portaltransparencia.gob.mx/buscador/search/search.do?method=drillDown&fstNavegadores=unidadadministrativanavigator**SUBSECRETAR%CDA%20DE%20EDUCACI%D3N%20B%C1SICA&navegador=unidadadministrativanavigator&modifier=SUBSECRETAR%CDA%20DE%20EDUCACI%D3N%20B%C1SICA&idDependenciaZoom=&searchBy=1&idFraccionZoom=" TARGET="_blank"> Transparencia</a><br/>
+					        <a class="header-text-link" href="https://www.infomex.org.mx/gobiernofederal/home.action" TARGET="_blank"> Rendición de cuentas</a><br/>					        
+					        <a class="header-text-link" href="http://pnd.gob.mx/#eje-3" TARGET="_blank"> Educación de Calidad: PND-2013-2018</a><br/>
+							</div>
+						</li>
+				<li>
+					
+<!--Contenido de Lo mas relevante-->
+					<div class="div-menu-body">
+						<h4 class="header-text-menu">Lo más Relevante</h4>
+					        <a class="header-text-link" href="http://basica.sep.gob.mx/Catalogo_LR_2013-2014.pdf" TARGET="_blank">Catálogo Libros del Rincón 2013-2014</a><br/>					
+							<a class="header-text-link" href="http://basica.sep.gob.mx/seb2010/CalendarioEscolar2013-2014.pdf" TARGET="_blank"> Calendario Escolar</a><br/>
+							<a class="header-text-link" href="http://basica.sep.gob.mx/seb2010/pdf/listautiles/ListaUtiles_SEPPROFECO.pdf" TARGET="_blank"> Lista de útiles escolares</a><br/>
+							<a class="header-text-link" href="http://basica.sep.gob.mx/seb2010/interiores/interiores_cuartareunion.html"> Sistema básico de mejora educativa...</a><br/>
+							<a class="header-text-link" href="http://basica.sep.gob.mx/seb2010/interiores/interiores_cuartareunion.html"> Estrategia nacional de los CTE...</a><br/>
+							<a class="header-text-link" href="http://basica.sep.gob.mx/seb2010/interiores/interiores_cuartareunion.html"> Una supervisión efectiva...</a><br/>
+					</div>
+				</li>
+				
+			</ul>
+			<button type="button" class="close" data-dismiss="modal" id="close-button-purple" aria-hidden="true">Cerrar &#88;</button>
+		</div>
+		
+<!-- Termina Menú desplegable Escuela -->
+		
+<!-- Inicia Menú desplegable Familia -->
+		<div class="row" id="dmenu-yellow">
+			<ul class="nav navbar-nav ul-menu-body" id="ul-menu-body-1">
+				<li>
+					
+<!--Contenido de Educación por niveles-->
+					<div class="div-menu-body">
+						
+							
+					       <h4 class="header-text-menu">Educación por niveles</h4>
+					        <a class="header-text-link" href=""> Inicial</a><br/>
+					        <a class="header-text-link" href="http://www.reformapreescolar.sep.gob.mx/" TARGET="_blank"> Preescolar</a><br/>
+					        <a class="header-text-link" href="http://basica.sep.gob.mx/reformaintegral/sitio/index.php?act=primaria" TARGET="_blank"> Primaria</a><br/>
+					        <a class="header-text-link" href="http://basica.sep.gob.mx/reformasecundaria/" TARGET="_blank"> Secundaria</a><br/>
+					        <a class="header-text-link" href="http://telesecundaria.dgme.sep.gob.mx/" TARGET="_blank">Telesecundaria</a><br/>					        
+					        <a class="header-text-link" href="http://www.educacionespecial.sep.gob.mx/" TARGET="_blank"> Especial</a><br/>
+					        <a class="header-text-link" href="http://basica.sep.gob.mx/dgei/" TARGET="_blank"> Indígena</a><br/>							
+							</div>
+						</li>
+						<li>
+							
+<!--Contenido de Programas nacionales de educacion basica-->
+					<div class="div-menu-body">
+						
+							<h4 class="header-text-menu">Programas Nacionales de Educación Básica</h4>
+					        <a class="header-text-link" href="http://basica.sep.gob.mx/tiempocompleto/" TARGET="_blank"> Escuelas de Tiempo Completo</a><br/>
+					        
+					        <a class="header-text-link" href="http://basica.sep.gob.mx/escuelasegura/" TARGET="_blank"> Escuela segura</a><br/>					        
+					        <a class="header-text-link" href="http://lectura.dgme.sep.gob.mx/" TARGET="_blank"> Programa Nacional de lectura y Escritura</a><br/>
+					        <a class="header-text-link" href="http://basica.sep.gob.mx/pec/" TARGET="_blank"> Escuelas de calidad</a><br/>
+					        <!-- <a class="header-text-link" href="http://basica.sep.gob.mx/escuelasiempreabierta/"> Escuela siempre abierta</a><br/> -->
+							</div>
+						</li>                                                
+					
+				<li>
+					
+<!--Contenido de Servicios en educacion basica-->
+					<div class="div-menu-body">
+						
+							<h4 class="header-text-menu">Servicios en Educación Básica</h4>
+					        <a class="header-text-link" href="http://www.controlescolar.sep.gob.mx/index.php/basica" TARGET="_blank"> Control Escolar</a><br/>
+					        <a class="header-text-link" href="http://www.enlace.sep.gob.mx/ba/" TARGET="_blank"> Enlace</a><br/>
+					        <a class="header-text-link" href="http://www.snie.sep.gob.mx/indicadores_y_pronosticos.html" TARGET="_blank"> Indicadores de la Educación Básica</a><br/>
+					        <a class="header-text-link" href="http://goo.gl/vdbOn0" TARGET="_blank"> Registro Nacional de Alumnos</a><br/>
+					        <a class="header-text-link" href="http://consultas.curp.gob.mx/CurpSP/" TARGET="_blank"> Obtén tu CURP</a><br/>
+					        				        					        
+							</div>
+						</li>
+				<li>
+					
+<!--Contenido de de Educación Básica hacia Educación Media-->
+					<div class="div-menu-body">
+						
+							<h4 class="header-text-menu">de Educación Básica hacia Educación Media</h4>					        
+					        <a class="header-text-link" href="http://basica.sep.gob.mx/seb2010/interiores/interiores_becas.html">Becas Educación Básica</a><br/>
+					        <a class="header-text-link" href="http://www.becas.sep.gob.mx/" TARGET="_blank">Becas Educación Media Superior </a><br/>
+					        <a class="header-text-link" href=""> </a><br/>
+					        <a class="header-text-link" href=""> </a><br/>
+					        
+							</div>
+						</li>
+				<li>
+					
+<!--Contenido de Lo mas relevante-->
+					<div class="div-menu-body">
+						<h4 class="header-text-menu">Lo más Relevante</h4>
+					        <a class="header-text-link" href="http://basica.sep.gob.mx/Catalogo_LR_2013-2014.pdf" TARGET="_blank">Catálogo Libros del Rincón 2013-2014</a><br/>					
+							<a class="header-text-link" href="http://basica.sep.gob.mx/seb2010/CalendarioEscolar2013-2014.pdf" TARGET="_blank"> Calendario Escolar</a><br/>
+							<a class="header-text-link" href="http://basica.sep.gob.mx/seb2010/pdf/listautiles/ListaUtiles_SEPPROFECO.pdf" TARGET="_blank"> Lista de útiles escolares</a><br/>
+							<a class="header-text-link" href="http://basica.sep.gob.mx/seb2010/interiores/interiores_cuartareunion.html"> Sistema básico de mejora educativa...</a><br/>
+							<a class="header-text-link" href="http://basica.sep.gob.mx/seb2010/interiores/interiores_cuartareunion.html"> Estrategia nacional de los CTE...</a><br/>
+							<a class="header-text-link" href="http://basica.sep.gob.mx/seb2010/interiores/interiores_cuartareunion.html"> Una supervisión efectiva...</a><br/>
+					</div>
+				</li>
+				
+			</ul>
+			<button type="button" class="close" data-dismiss="modal" id="close-button-yellow" aria-hidden="true">Cerrar &#88;</button>
+		</div>
+		
+<!-- Termina Menú desplegable Familia -->
+		
+<!-- Termina menú desplegable -->
+ 	
+<!--Comienza el carrusel -->
+		
+		<div  class="row" id="info">
+		   	
+<!--Inicio Contenido -->		   	
+		   	
+			<div class="col-lg-9">
+				
+				<center><image class="img-thumbnail" src="img/fil2.png" width="800px"></image></center>
+				<h2>Realiza SEP Seminario de Materiales para los Niños y Jóvenes Mexicanos de Hoy.</br> </br><small class="pull-right">Guadalajara, Jal. 01 Diciembre 2013.</small></h2></br> 
+<blockquote>El Consejo Nacional para la Cultura y las Artes (Conaculta) y Unicef unen esfuerzos con la Subsecretaría de Educación Básica en acciones en favor de la lectura y la escritura.</blockquote>
+<blockquote>Presentan gradualidad para la nueva generación de materiales educativos y los 67 títulos que conformarán la nueva colección de los Libros del Rincón 2014-2015.</blockquote>
+
+<p align="justify">El trabajo de las instituciones públicas y organismos internacionales debe transitar hacía la unificación de acciones a favor de la educación, esto permitirá asegurar la cobertura, calidad e inclusión educativa, coincidieron autoridades federales, investigadores y representantes de organismos internacionales en el Seminario: Una nueva generación de materiales para niños y jóvenes de hoy, desarrollado por la Secretaría de Educación Pública, a través de la Dirección General de Materiales e Informática Educativa en el marco de la  XXVII Feria Internacional del Libro de Guadalajara (FIL).</p>
+
+<p align="justify">Con la participación de la Mtra. Alba Martínez Olivé, titular de la Subsecretaría de Educación Básica (SEB), Ricardo Cayuela Gally, Director General de Publicaciones de Conaculta, Isabel Crowley, Representante de UNICEF en México, Joaquín Díez-Canedo Flores, Director General de la Conaliteg, Inés Dussel, especialista en materiales educativos, así como funcionarios, docentes, editores, evaluadores, autores e investigadores en materia educativa, se compartieron puntos de vista sobre la temática desde la producción en lengua indígena, braille, digital y literaria, así como la relación entre acceso, equidad e inclusión frente a la producción de los materiales educativos en México.</p>
+
+<p align="justify">En el Seminario se abordaron temas cómo Los desafíos en la producción de materiales educativos y los libros de texto gratuitos en la enseñanza en el aprendizaje de la educación básica, los materiales necesarios para la educación básica en nuestro país en el siglo XX; así como la gradualidad y esquema para la Nueva Generación Materiales Educativos para los alumnos y maestros de México.</p>
+
+<p align="justify">Además, se realizó la presentación de la colección de los Libros del Rincón 2013-2014 con los nuevos títulos que se integrarán a las bibliotecas escolares y de aula destinada para niños de preescolar, primaria y secundaria de las escuelas públicas del país, que por primera vez contó con la participación de estudiantes y maestros, además de la mirada de escritores renombrados frente a la colección, que en esta edición convocó libros relacionados con los derechos de la infancia, redes sociales, acceso a la información, ciencia, los niños y jóvenes frente a los fenómenos sociales.</p>
+
+<p align="justify">El Director General de Publicaciones de Conaculta, Ricardo Cayuela, resaltó el trabajo que se realizará con la Dirección General de Materiales e Informática Educativa (DGMIE) para crear redes entre bibliotecas públicas y escolares a fin de fortalecer las prácticas de lectura.</p>
+
+<p align="justify">Por su parte, la representante en México de Unicef, Isabel Crowley refirió la importancia de trabajar el tema del acceso a la educación y la inclusión desde diversas perspectivas institucionales, como son los materiales educativos.</p>
+
+<p align="justify">En el mismo orden de ideas, la maestra Alba Martínez Olivé destacó que los materiales educativos en las escuelas deben transitar a integrarse como un ecosistema que posibiliten el trabajo cotidiano en el aula, y que cumplan con el objetivo de aprender a aprender en las escuelas de educación básica de México.</p>
+
+<p align="justify">Destacó que la inclusión desde los materiales educativos debe contemplar el uso de las bibliotecas escolares y de aula, las obras nacionales e internacionales en papel, así como el tema digital.</p>
+
+<p align="justify">Por su parte, la investigadora Inés Dussel enfatizó que el trabajo con la inclusión del uso de la tecnología y materiales digitales debe ir acompañado de estrategias de formación de maestros para permitir a los alumnos una elección adecuada de los contenidos dispuestos en el internet.</p>
+
+<p align="justify">Sobre la nueva generación de materiales educativos la Directora General Adjunta de Materiales Educativos de la SEB, Laura Athie, destacó que la mirada de los nuevos materiales educativos incluye el complemento de sus diversos formatos, tamaños y una gradualidad que inicia a partir del Ciclo Escolar 201-2015, con materiales que contemplan la diversidad e inclusión para todos los estudiantes, iniciando con aquellos de baja visión o ceguera.</p>
+
+<p align="justify">La Nueva Generación de Materiales Educativos contempla el rescate de materiales probados en ediciones anteriores, desarrolladas por la SEP u otras instancias, así como materiales de bulto como la caja de la ciencia, la lectura, escritura y matemáticas de manera transversal a través de cuadernos de trabajo que complementan los Libros de Texto Gratuitos, ficheros y estrategias digitales como el programa micompu.mx, así como una vinculación estrecha con las Bibliotecas Escolares y de Aula; así como un esquema de materiales para el aula, para el maestro y, para el alumno.</p>
+
+<p align="justify">¨La propuesta es trabajar la inclusión desde los materiales, el lenguaje, el uso de la imagen y la diversidad, complementar el trabajo que de los materiales impresos y digitales para ofrecer a los alumnos y maestros mayor diversidad¨, refirió.</p>
+
+<p align="justify">A su vez, la Directora General Adjunta de Informática Educativa, Lilián Kravzov destacó, que el programa de tecnología educativa micompu.mx  trabaja con los estados de Tabasco, Sonora y Colima, pero que la plataforma digital pueden consultarla en el portal <middle><a href="http://basica.sep.gob.mx"><image src="img/bas.png"></image></a></middle> </p>
+
+<p align="justify">Habló de los contenidos digitales que se encuentran a disposición de los alumnos son el resultado de la colaboración de diversas instancias educativas y culturales que se sumaron a la propuesta.</p>
+
+<p align="justify">Por su parte, la Directora de Educación Indígena, Rosalinda Morales destacó que la producción de materiales indígenas en 68 variantes permite la inclusión y atención de la diversidad, así como la nueva generación de materiales indígenas entre la que destaca la Biblioteca Escolar y la Colección Semillas de palabras.</p>
+
+<p align="justify">Mónica Lavín, escritora y Raúl Martín del campo, escritor y poeta, presentaron junto con las alumnas de primaria y secundaria: América Dayana Olvera Orozco y Mariana García Fonseca, así como la maestra de preescolar, Sonia Violeta Rodríguez Sandoval, los 67 títulos de los Libros del Rincón que llegarán a las escuelas de educación básica de todo el país en el próximo Ciclo Escolar.</p> 
+
+
+
+
+
+
+<div class="col-lg-4">
+<image class="img-circle" src="img/fil3.png" width="260px" height="190px"></image>
+</div>
+<div class="col-lg-4">
+<image class="img-circle" src="img/fil4.png" width="260px" height="190px"></image>
+</div>
+
+<div class="col-lg-4">
+<image class="img-circle" src="img/fil5.png" width="260px" height="190px"></image>
+</div>
+</br>
+
+
+
+	
+	<div class="col-lg-12">
+	<blockquote>Él Seminario: Una nueva generación de materiales para los niños y jóvenes mexicanos recogió voces de maestros, especialistas, editores e investigadores que orientan su visión a la calidad de los materiales y su diversidad.</blockquote>
+
+	<blockquote>La propuesta de gradualidad de la Nueva Generación de Materiales Educativos puede verse hasta el 8 de diciembre, en el Stand  de la SEP, que por primera vez conjunta esfuerzos con la Conaliteg para mostrar la historia de los materiales educativos en nuestras vidas, del papel al digital, ubicado en la avenida Novelistas frente a FIL Niños.</blockquote>
+</div>
+
+
+
+				
+				
+			</div>
+			
+<!--Fin de Contenido -->
+						
+<!--- empiza tool buscador -->	                                           				
+			<div class="col-lg-3">
+				<div class="panel panel-default">
+				<div class="panel-heading"><center><mio><strong>Buscador</strong></mio></center></div>
+					<div class="panel-body">
+						
+<!-- buscador basica-->
+					
+						<mio>Orienta tu búsqueda...Enter</mio>
+						<form action="http://www.encuentra.gob.mx/APF" method="GET">
+                            <input class="form-control" type="text" placeholder="Buscar..."></input>
+                            <input class="hidden-inputs" type="text" name="client" value="sep">
+                            <input class="hidden-inputs" type="submit" value="Enviar">
+                        </form>
+
+								<div><label class="lio"><input type="radio" name="options-radio" value="básica" checked="true" >basica.sep.gob.mx</label></div>
+							
+								<div><label class="lio"><input type="radio" name="options-radio" value="gob"></label>GOB.MX</div>	<br>						
+					</div>
+					
+<!-- Redes sociales sep-->
+					<div class="panel-heading"><center><mio><strong>Conéctate con la SEB</strong></mio></center></div>
+					<div class="panel-body">
+							
+							<div>
+									<a href="https://www.facebook.com/SEPmx"><i class="icon-facebook icon-large"></i></a>
+								
+									<a href="https://twitter.com/SEP_mx"><i class="icon-twitter icon-large"></i></a>
+								
+									<a href="mailto:basica@sep.gob.mx"><i class="icon-envelope icon-large"></i></a>
+								
+									<a href="http://www.youtube.com/canalsep"><i class="icon-youtube icon-large"></i></a>
+								
+									<a href="http://www.sep.gob.mx/swb/sep1/Feed_RSS"><i class="icon-rss icon-large"></i></a>
+								
+								</div><br>	
+					</div>
+					
+<!--Inicia boletines de edicación basica -->
+					<div class="panel-heading"><center><mio><strong>Boletines de Educación Básica</strong></mio></center></div>
+					<div class="panel-body">
+						<p>
+						<a href="http://basica.sep.gob.mx/reformaintegral/sitio/index.php?act=frontlibros" class="btn btn-large active" id="boletin-seb"><i class="icon-white icon-thumbs-up"></i>Materiales<br>Educativos</button></a>
+					</p><br>
+					</div>
+					<div class="panel-heading"><center><mio><strong>Tecnologías Educativas</strong></mio></center></div>
+					<div class="panel-body">
+						
+						<a href="http://www.basica.primariatic.sep.gob.mx/"><image src="img/primariatic.png"></image></a>
+						
+					</div>
+					
+					<div class="panel-body" >
+						
+						<a href="http://www.clicseguro.sep.gob.mx/" class="btn btn-large active" id="tech"><i class="icon-white icon-thumbs-up"></i> Clic<br> Seguro</a>
+						
+					</div>
+					
+					<br>
+					
+				</div>
+					</div>
+				</div>
+		
+		
+				
+<!--Termina contenedor de información  -->
+         
+<!--Footer Mexico 2013 -->
+                                  		
+		<div id="footer-a" class="row">
+			<div class="col-lg-3"><p class="footer-a-text">México 2013</p></div>
+			<div class="col-lg-3"><center class="imagen"><a href="http://lectura.dgme.sep.gob.mx/index.php" TARGET="_blank"><img src="img\pnl.png";></a></center></div>
+			<div class="col-lg-3"><center class="imagen"><a href="http://basica.sep.gob.mx/pdf/fe_erratas.pdf" TARGET="_blank"><img src="img\feee.png";></a></center></div>
+			<div class="col-lg-3"><center class="imagen"><a href="http://basica.sep.gob.mx/cte2013.html"><img src="img\cte.png";></a></center></div>
+		</div>
+		
+
+		
+		<div id="footer-b" class="row">
+			<div class="col-lg-3">
+				<center><a href="http://portaltransparencia.gob.mx/buscador/search/search.do?method=drillDown&fstNavegadores=unidadadministrativanavigator**SUBSECRETAR%CDA%20DE%20EDUCACI%D3N%20B%C1SICA&navegador=unidadadministrativanavigator&modifier=SUBSECRETAR%CDA%20DE%20EDUCACI%D3N%20B%C1SICA&idDependenciaZoom=&searchBy=1&idFraccionZoom=" TARGET="_blank"><p class="texto-menu-down"><strong>Transparencia</strong></p></a></center>
+			</div>
+			<div class="col-lg-3">
+				<center><a href="http://basica.sep.gob.mx/seb2010/interiores/interiores_sitiosdeinteres.html"><p class="texto-menu-down"><strong>Ligas de Interés</strong></p></a></center>
+			</div>
+			<div class="col-lg-3">
+				<center><a href="http://pnd.gob.mx/#eje-3" TARGET="_blank"><p class="texto-menu-down"><strong>PND 2013-2018</strong></p></a></center>
+			</div>
+			<div class="col-lg-3">
+				<center><a href="http://www.snie.sep.gob.mx/estadisticas_educativas.html" TARGET="_blank"><p class="texto-menu-down"><strong>Estadística Educativa</strong></p></a></center>
+			</div>
+		</div>
+		
+<!-- Footer General -->
+
+		<div id="footer-c" class="row">
+			<p  class="pull-left address-custom">
+				Argentina 28, piso 1, oficina 2005<br>
+Col. Centro,  México, D.F.<br>
+
+  				
+  				C.P 06020<br>
+  				Tel. 360 11 000
+			</p>
+			<a href="http://sep.gob.mx"><img src="img/logoSEP_hoz.png";></a>
+			<p id="priva" class="pull-right address-custom">Privacidad  <br> DR &copy SEB2013</p>
+		</div>
+	
+ 	<!-- Termina footer General -->
+		
+	</body>
+	
+	<!-- Termina body -->
+</html>
